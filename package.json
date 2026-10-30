@@ -1,0 +1,28 @@
+{
+  "name": "freecontrol-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check:assets": "node scripts/sync-assets.mjs --check",
+    "sync:product": "node scripts/sync-assets.mjs",
+    "icons:ui": "node scripts/gen-icon-subset.mjs",
+    "check:icons": "node scripts/gen-icon-subset.mjs --check",
+    "test:assets": "node --test scripts/test-assets.mjs",
+    "test:icons": "node --test scripts/test-icons.mjs",
+    "test:release": "node --test scripts/test-release.mjs",
+    "test:hero-first-paint": "node scripts/test-hero-first-paint.mjs",
+    "fetch-release": "node scripts/fetch-release.mjs",
+    "dev": "npm run check:assets && npm run fetch-release && vite",
+    "build": "npm run check:assets && npm run fetch-release && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "esbuild": "0.21.5",
+    "lucide-svelte": "0.456.0",
+    "svelte": "^4.2.19",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "repository": "pdone/FreeControl",
+  "commit": "ac48bb8437687770e11655385d36e628e32b2b6d",
+  "lucideVersion": "0.456.0",
+  "files": [
+    {
+      "source": "assets/icons/desktop/64x64.png",
+      "target": "public/assets/icons/desktop/64x64.png",
+      "sha256": "d4945e2b9ca0404cab913185be5cb1f2e0786139a0b52957eebd21eae7fb87ab"
+    },
+    {
+      "source": "assets/icons/desktop/128x128.png",
+      "target": "public/assets/icons/desktop/128x128.png",
+      "sha256": "9e0f69d44d5daa01239d29548536bc3c5cb7df20875fb56f56a2bebe1e99f34f"
+    },
+    {
+      "source": "assets/icons/desktop/256x256.png",
+      "target": "public/assets/icons/desktop/256x256.png",
+      "sha256": "f4ca6667a57d24e07d9743836a924c815eb56eefc1a5c810acfa58e31d57b5e3"
+    },
+    {
+      "source": "assets/icons/desktop/512x512.png",
+      "target": "public/assets/icons/desktop/512x512.png",
+      "sha256": "4cf34f3df0471d3f5cf61e34568da98173c762186cc2e7334e3f41ebe5a9309e"
+    },
+    {
+      "source": "ui-design/launcher-prototype.html",
+      "target": "public/preview/launcher-prototype.html",
+      "sha256": "f60ff4926d441f6dbef479ffb7688ea14e81f5bdb57569485b1b5ac999d29610"
+    },
+    {
+      "source": "assets/screenshots/devices.png",
+      "target": "public/screenshots/dark/devices.png",
+      "sha256": "0a0f7df4c72632c563979aa6abce53e7c5494e098e7892cbad4507d4f6f99449"
+    },
+    {
+      "source": "assets/screenshots/en/devices.png",
+      "target": "public/screenshots/dark/en/devices.png",
+      "sha256": "8f1fded86940e38ae58e6d35ec3de6c288a7a529a5f347a34b5bba3d458fafa2"
+    },
+    {
+      "source": "assets/screenshots/light/devices.png",
+      "target": "public/screenshots/light/devices.png",
+      "sha256": "ba3eac7058c3e1d11abdbd0b1c2f0f77a22c8a98166c9a73aad7614b083e5095"
+    },
+    {
+      "source": "assets/screenshots/light/en/devices.png",
+      "target": "public/screenshots/light/en/devices.png",
+      "sha256": "7233646b8bfddc25bed643e9a00ca328066c11af1a10ce66aaf188e06bcc59f1"
+    }
+  ]
+}

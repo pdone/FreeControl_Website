@@ -1,0 +1,23 @@
+{
+  // 本地命令的取值只有一处：package.json 的 scripts。
+  // 下面每一条只引用脚本名（npm run <名字>），不复制命令行本身 ——
+  // 改命令的取值时不需要动这个文件，这里只负责标签、排序与分组。
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "预览：官网页面",
+      "detail": "起站点开发服务器，改文案与样式即时热更新（命令取自 package.json 的 dev 脚本）",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
