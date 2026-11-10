@@ -1,6 +1,6 @@
 {
   "repository": "pdone/FreeControl",
-  "commit": "d9b0604a1f7428e1848f125bc9c0417ace3c10ba",
+  "commit": "f7932cf035ef5d4f8c07de41d1a13f66208f2bfe",
   "lucideVersion": "0.456.0",
   "files": [
     {
@@ -26,7 +26,7 @@
     {
       "source": "ui-design/launcher-prototype.html",
       "target": "public/preview/launcher-prototype.html",
-      "sha256": "243a7785f63057af55fc1666982033bd3359722e323c8c1761f36a44e2b92854"
+      "sha256": "fd1b15980f2f8c7d2531472808b123faa137e52676cbf640773dd14e12bb4e1d"
     },
     {
       "source": "assets/screenshots/devices.png",
