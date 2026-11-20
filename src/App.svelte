@@ -16,7 +16,7 @@
   const REPO = 'https://github.com/pdone/FreeControl';
   const RELEASES = `${REPO}/releases/latest`;
   // 第一代产品（更名前叫 FreeControl）—— 选型对比里那一栏指向它，避免与本产品混名。
-  const LEGACY_REPO = 'https://github.com/pdone/FreeControl-Legacy';
+  const LEGACY_REPO = 'https://github.com/pdone/FreeControlBackup';
   const PREVIEW = '/preview/launcher-prototype.html';
   const DEVICE_SHOT = '/screenshots/dark/devices.png';
   const DEVICE_SHOT_EN = '/screenshots/dark/en/devices.png';
