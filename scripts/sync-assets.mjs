@@ -12,8 +12,8 @@ export const MANIFEST = Object.freeze([
   ['assets/icons/desktop/256x256.png', 'public/assets/icons/desktop/256x256.png'],
   ['assets/icons/desktop/512x512.png', 'public/assets/icons/desktop/512x512.png'],
   ['ui-design/launcher-prototype.html', 'public/preview/launcher-prototype.html'],
-  ['assets/screenshots/devices.png', 'public/screenshots/dark/devices.png'],
-  ['assets/screenshots/en/devices.png', 'public/screenshots/dark/en/devices.png'],
+  ['assets/screenshots/dark/devices.png', 'public/screenshots/dark/devices.png'],
+  ['assets/screenshots/dark/en/devices.png', 'public/screenshots/dark/en/devices.png'],
   ['assets/screenshots/light/devices.png', 'public/screenshots/light/devices.png'],
   ['assets/screenshots/light/en/devices.png', 'public/screenshots/light/en/devices.png'],
 ].map(Object.freeze));
